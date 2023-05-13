@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+:root {
+  font-size: 62.5%;
+}
+#app {
+  text-align: center;
+  margin: auto;
+  width: 38rem;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+p {
+  font-size: 5rem;
+  color: #4b4b4b;
+  font-weight: 300;
+}
+#total {
+  font-size: 15rem;
+  font-weight: 500;
+}
+#reset,
+#increment,
+#decrement {
+  border-radius: 16px;
+  padding: 4rem 2rem;
+  font-weight: 900;
+  border: 0;
+  width: 30%;
+}
+#reset {
+  color: #000;
+  background: #ccc;
+}
+#increment {
+  background: #0c0c;
+  color: #fff;
+}
+#decrement {
+  background: #c00;
+  color: #fff;
+}
+#reset:hover,
+#increment:hover,
+#decrement:hover {
+  margin: 0 auto;
+  scale: 1.03;
+}
